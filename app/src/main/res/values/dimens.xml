@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common dimens -->
+    <dimen name="dimen_XS">10dp</dimen>
+    <dimen name="dimen_S">20dp</dimen>
+    <dimen name="dimen_M">40dp</dimen>
+    <dimen name="dimen_L">80dp</dimen>
+    <dimen name="dimen_XL">100dp</dimen>
+
+    <!-- Text size section -->
+    <dimen name="text_XS">8sp</dimen>
+    <dimen name="text_M">16sp</dimen>
+    <dimen name="text_L">24sp</dimen>
+    <dimen name="text_XL">32sp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_corner_radius">8dp</dimen>
+    <dimen name="card_height">125dp</dimen>
+
+    <!-- ViewPager2 -->
+    <dimen name="viewpager_current_item_horizontal_margin">140dp</dimen>
+    <dimen name="viewpager_next_item_visible">100dp</dimen>
+
+</resources>

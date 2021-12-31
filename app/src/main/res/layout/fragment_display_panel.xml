@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="fromAmount"
+            type="String" />
+
+        <variable
+            name="toAmountValue"
+            type="String" />
+
+        <variable
+            name="fromCurrencyValue"
+            type="String" />
+
+        <variable
+            name="toCurrencyValue"
+            type="String" />
+
+    </data>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2"
+        android:rowCount="2">
+
+        <EditText
+            android:id="@+id/amountInput"
+            android:layout_width="@dimen/dimen_XL"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_L"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:text="@{fromAmount}"
+            android:textSize="@dimen/text_XL"
+            android:autofillHints="" />
+
+        <TextView
+            android:id="@+id/fromCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_L"
+            android:gravity="center"
+            android:text="@{fromCurrencyValue}"
+            android:textSize="@dimen/text_XL" />
+
+        <TextView
+            android:id="@+id/toAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_L"
+            android:gravity="center"
+            android:text="@{toAmountValue}"
+            android:textSize="@dimen/text_XL" />
+
+        <TextView
+            android:id="@+id/toCurrency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_L"
+            android:gravity="center"
+            android:text="@{toCurrencyValue}"
+            android:textSize="@dimen/text_XL" />
+
+    </GridLayout>
+
+</layout>
